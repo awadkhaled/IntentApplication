@@ -23,6 +23,7 @@ class Destination : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.finish).setOnClickListener {
+            setResult(RESULT_OK)
             finish()
         }
     }

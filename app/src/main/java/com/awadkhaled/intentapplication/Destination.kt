@@ -17,9 +17,7 @@ class Destination : AppCompatActivity() {
             text = intent.getStringExtra(EMAIL_KEY)
         }
         findViewById<TextView>(R.id.textView_paasword).apply {
-            text = intent.getStringExtra(
-                PASSWORD_KEY
-            )
+            text = intent.getStringExtra(PASSWORD_KEY)
         }
 
         findViewById<Button>(R.id.finish).setOnClickListener {
